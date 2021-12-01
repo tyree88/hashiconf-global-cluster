@@ -8,4 +8,5 @@ variable "workers_count" {
 
 variable "cluster_name" {
   type = string
+  default = "kb-cluster"
 }

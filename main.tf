@@ -3,6 +3,9 @@ locals {
 }
 
 provider "google" {
+  project = "tyree-pearson-tf-demo"
+  region  = "us-central1"
+  zone    = "us-central1-c"
 }
 
 # This is used to set local variable google_zone.
