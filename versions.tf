@@ -11,7 +11,9 @@ terraform {
     organization = "tyreepearson"
 
     workspaces {
-      name = "learn-sentinel-tfc"
+      name = "hashiconf-global-cluster"
     }
   }
+    required_version = "~> 1.0.8"
+
 }

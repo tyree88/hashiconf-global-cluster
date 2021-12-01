@@ -3,6 +3,7 @@ locals {
 }
 
 provider "google" {
+  credentials = file("tyree-pearson-tf-demo-1eb47ab2d09e.json")
   project = "tyree-pearson-tf-demo"
   region  = "us-central1"
   zone    = "us-central1-c"
